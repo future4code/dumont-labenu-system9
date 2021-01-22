@@ -1,0 +1,32 @@
+### Endpoints
+
+# createMission
+# # POST http://localhost:3003/mission/create
+# Content-Type: application/json
+
+# {
+#     //???
+# }
+
+
+# createStudent
+POST http://localhost:3003/student/create
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Murilo Mendonca",
+    "email": "murilo@email.com",
+    "birthdate": "1989/09/09",
+    "mission": "Dumont"
+}
+
+# createTeacher
+POST http://localhost:3003/teacher/create
+
+# getStudentAgeById
+GET http://localhost:3003/student/:id
+
+# getStudentByMission
+GET http://localhost:3003/test/:id
+
